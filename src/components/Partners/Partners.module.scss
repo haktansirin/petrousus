@@ -1,0 +1,12 @@
+.partner {
+  border: 1px solid var(--gray-color);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 45px;
+
+  &Item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

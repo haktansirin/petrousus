@@ -1,0 +1,33 @@
+.flex-vertical {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.text-black {
+  color: var(--black-color);
+}
+
+.text-white {
+  color: var(--white-color);
+}
+
+.text-xl {
+  font-size: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.p-1 {
+  padding: 10px;
+}
+
+.mt-3 {
+  margin-top: 30px;
+}

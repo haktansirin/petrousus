@@ -1,0 +1,10 @@
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  &Item {
+    color: var(--white-color);
+    font-weight: 300;
+  }
+}

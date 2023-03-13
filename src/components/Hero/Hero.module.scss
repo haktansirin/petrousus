@@ -1,0 +1,44 @@
+.hero {
+  background-color: var(--black-color);
+  padding-top: 250px;
+  padding-bottom: 80px;
+  margin-top: -180px;
+
+  &Title {
+    display: inline-flex;
+    color: var(--white-color);
+    font-size: 110px;
+    letter-spacing: -10px;
+    line-height: 110px;
+  }
+
+  &Text {
+    flex: 1;
+  }
+
+  &Content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  &Image {
+    width: 450px;
+    height: 430px;
+    animation: banner 1s cubic-bezier(0.25, 1, 0.3, 1) infinite;
+  }
+}
+
+@keyframes banner {
+  0% {
+    background: url("../../assets/img/banner-frame-1.svg") left bottom no-repeat;
+  }
+
+  60% {
+    background: url("../../assets/img/banner-frame-2.svg") left bottom no-repeat;
+  }
+
+  100% {
+    background: url("../../assets/img/banner-frame-3.svg") left bottom no-repeat;
+  }
+}
